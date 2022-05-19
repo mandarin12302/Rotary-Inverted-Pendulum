@@ -1,5 +1,6 @@
 # Rotary-Inverted-Pendulum
-Rotary Inverted Pendulum
+Rotary Inverted Pendulum 
+This model is linearized around [0,0,0,0], simulink model is based on that.
 1. Run the main.m first
 2. then go to the linearmay19.mdl with is a simulink file 
 3. Doulbe click the scope to check the simulation results
