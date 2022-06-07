@@ -28,3 +28,7 @@ xlabel('Time (s)');
 set(gca, 'Fontname', 'Times New Roman','FontSize',16,'linewidth',1);
 set(gcf,'color','w');
 hold on;
+t1 = stepinfo(data(:,2),data(:,1),0,180,'SettlingTimeThreshold',0.05);
+t2 = stepinfo(data(:,4),data(:,3),0,180,'SettlingTimeThreshold',0.05);
+t3 = stepinfo(data(:,6),data(:,5),0,180,'SettlingTimeThreshold',0.05);
+t4 = stepinfo(data(:,8),data(:,7),0,180,'SettlingTimeThreshold',0.05);
