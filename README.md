@@ -17,3 +17,7 @@ Data for the paper is collected manually in o040201.xlsx
 After simulink get results, I manually saved the results of system response in the excel file.
 
 run plott.m can directly get the graph
+
+plott.m is updated now which can show the system properties. You can type t1,t2,t3,t4 to see the settling time of those system.
+
+Inverted_PendulumPID0.slx is the plausibility check simulink model that you may try.
